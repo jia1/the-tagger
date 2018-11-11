@@ -1,6 +1,6 @@
-# conical-flask
+# the-tagger
 
-Empty Flask app that can be built and deployed on Heroku out of the box
+(Current an) Empty Flask app that can be built and deployed on Heroku out of the box
 
 ## Instructions for local deployment (on Windows)
 
