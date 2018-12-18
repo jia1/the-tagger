@@ -13,7 +13,7 @@ def index():
 
 @app.route('/pingu')
 def pingu():
-    client = TelegramClient('session_name', api_id, api_hash)
+    client = TelegramClient('session_name', api_id, api_hash).start()
     with client:
         usernames = client.get_participants(group)
         print(usernames)
