@@ -1,5 +1,5 @@
 from os import environ
-from gevent.wsgi import WSGIServer
+from gevent.pywsgi import WSGIServer
 from app import app
 
 if __name__ == '__main__':
